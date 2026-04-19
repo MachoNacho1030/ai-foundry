@@ -31,16 +31,20 @@ Load these from ai-operator-toolkit before starting any task:
 - skills/explain-like-im-five.md — how to explain things
 - skills/tdd-workflow.md — how to write and verify code
 - skills/git-workflow.md — how to commit and branch
+- skills/interview-mode.md — slow down, explain every step ELI5, pause for questions, make the workflow visible for all audiences
 
 ## Workflow Per Problem
 1. Receive the problem statement
 2. Explain the approach ELI5
-3. Create a new branch — feature/problem-name
-4. Write tests first
-5. Implement solution to pass tests
-6. Run tests and confirm passing
-7. Commit with clear message
-8. Push branch and open PR
+3. **CHECKPOINT** — Ask "Any questions before we write tests?"
+4. Create a new branch — feature/problem-name
+5. Write tests first
+6. **CHECKPOINT** — Show the tests, explain what each one checks, ask "Ready to implement?"
+7. Implement solution to pass tests
+8. **CHECKPOINT** — Run tests live, show results, ask "Ready to commit?"
+9. Commit with clear message
+10. Push branch and open PR
+11. **CHECKPOINT** — Confirm PR is open, summarise what was built and why it works
 
 ## Rules
 - Never skip writing tests first
