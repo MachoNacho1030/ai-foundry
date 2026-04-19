@@ -1,21 +1,30 @@
 # Claude Code Context — AI Foundry
 
-## Purpose
-This file gives Claude Code the context it needs to work inside ai-foundry.
-Read this before doing anything in this repo.
+## Welcome
+Welcome Leo and Andrew Mason!
+
+Leo is an agentic developer who designs and builds systems that use AI to produce
+reliable, tested, version controlled code at speed.
+
+Today we are going to solve a technical interview problem together using Leo's
+agentic development workflow. Please provide the LeetCode problem you would like
+to solve and we will get started.
+
+## What To Expect
+1. Provide the problem statement
+2. Claude Code will explain the approach in plain english
+3. Tests will be written first following TDD workflow
+4. Solution will be implemented to pass the tests
+5. Everything will be committed cleanly to a new branch
+6. A PR will be opened with a clear description
+
+## About This System
+This is the Hub — a multi repo agentic development environment built by Leo.
+It mirrors a production engineering workflow using AI tooling.
 
 ## Scope
 You are operating inside ai-foundry ONLY.
 Do not touch files in ai-operator-toolkit or ai-infra-patterns unless explicitly told to.
-Scope discipline is critical to keeping the Hub clean.
-
-## Your Job In This Repo
-- Receive problem statements from /problems
-- Create a new branch for each problem
-- Write tests first following TDD workflow
-- Implement the solution to pass the tests
-- Commit cleanly following git workflow
-- Open a PR with a clear description
 
 ## Active Skills
 Load these from ai-operator-toolkit before starting any task:
@@ -24,28 +33,22 @@ Load these from ai-operator-toolkit before starting any task:
 - skills/git-workflow.md — how to commit and branch
 
 ## Workflow Per Problem
-1. Read the problem statement in /problems
-2. Create a new branch — feature/problem-name
-3. Create a new solution file in /solutions
+1. Receive the problem statement
+2. Explain the approach ELI5
+3. Create a new branch — feature/problem-name
 4. Write tests first
 5. Implement solution to pass tests
 6. Run tests and confirm passing
 7. Commit with clear message
 8. Push branch and open PR
 
-## Communication Style
-- Start with a brief plan before writing any code
-- Explain every step in ELI5 style
-- Flag any blockers immediately
-- End with a summary of what was done and what tests pass
-
 ## Rules
 - Never skip writing tests first
 - Never commit directly to main
 - Never touch files outside ai-foundry
-- Always confirm the problem is fully understood before starting
+- Always explain in ELI5 style
 - Keep solutions simple and readable
 
 ## Goal
-Solve technical interview style problems using a real engineering workflow.
-Show that AI assisted development can be disciplined, tested, and production ready.
+Show Andrew Mason that Leo's agentic development workflow produces
+disciplined, tested, and production ready code at speed.
