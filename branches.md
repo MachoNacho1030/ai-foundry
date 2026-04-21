@@ -7,6 +7,7 @@ Every problem gets a branch. Every branch gets a PR. Every PR gets logged here.
 ## Active Branches
 | Branch | Problem | Status | PR |
 |--------|---------|--------|----|
+| feature/single-number | Single Number | Open | #4 |
 
 ## Merged Branches
 | Branch | Problem | PR | Merged |
@@ -24,6 +25,11 @@ prep/description
 - Branch: prep/initial-scaffold
 - Status: Merged
 - Description: Initial scaffold of ai-foundry including problems, solutions, and claude context
+
+### PR #4 — feat: single number — XOR solution with full TDD test suite
+- Branch: feature/single-number
+- Status: Open
+- Description: LeetCode #136. O(n) XOR approach, 9 tests covering standard cases, position variants, negatives, and large input.
 
 ### PR #3 — feat: two sum — hashmap solution with full TDD test suite
 - Branch: feature/two-sum
