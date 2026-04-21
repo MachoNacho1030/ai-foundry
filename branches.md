@@ -14,6 +14,7 @@ Every problem gets a branch. Every branch gets a PR. Every PR gets logged here.
 | prep/initial-scaffold | Initial setup | #1 | Yes |
 | feature/two-sum | Two Sum | #3 | Yes |
 | feature/single-number | Single Number | #4 | Yes |
+| feature/gas-station | Gas Station | #9 | Yes |
 
 ## Branch Naming Convention
 feature/problem-name
@@ -30,6 +31,11 @@ prep/description
 - Branch: feature/single-number
 - Status: Merged
 - Description: LeetCode #136. O(n) XOR approach, 9 tests covering standard cases, position variants, negatives, and large input.
+
+### PR #9 — feat: gas station — greedy O(n) solution with full TDD test suite
+- Branch: feature/gas-station
+- Status: Merged
+- Description: LeetCode #134. Single-pass greedy approach, early exit if total gas < total cost, reset candidate start on negative tank. 8 tests covering standard cases, impossible cases, single station, edge indices, and all-zero input.
 
 ### PR #3 — feat: two sum — hashmap solution with full TDD test suite
 - Branch: feature/two-sum
