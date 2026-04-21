@@ -6,14 +6,14 @@ Every problem gets a branch. Every branch gets a PR. Every PR gets logged here.
 
 ## Active Branches
 | Branch | Problem | Status | PR |
-|--------|---------|--------|----|
-| feature/single-number | Single Number | Open | #4 |
+|--------|---------|--------|-----|
 
 ## Merged Branches
 | Branch | Problem | PR | Merged |
 |--------|---------|-----|--------|
 | prep/initial-scaffold | Initial setup | #1 | Yes |
 | feature/two-sum | Two Sum | #3 | Yes |
+| feature/single-number | Single Number | #4 | Yes |
 
 ## Branch Naming Convention
 feature/problem-name
@@ -28,7 +28,7 @@ prep/description
 
 ### PR #4 — feat: single number — XOR solution with full TDD test suite
 - Branch: feature/single-number
-- Status: Open
+- Status: Merged
 - Description: LeetCode #136. O(n) XOR approach, 9 tests covering standard cases, position variants, negatives, and large input.
 
 ### PR #3 — feat: two sum — hashmap solution with full TDD test suite
